@@ -1,0 +1,12 @@
+<h1>{{ question.question_text }}</h1>
+
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote {{ choice.votes|pluralize }}</li>
+{% endfor %}
+</ul>
+<p><strong>The answer was <em><u>Jedi:Sith:Ironic</u></em></strong></p>
+
+<p><a href="{% url 'plag:detail' question.id %}">Vote again?</a></p>
+<p><a href="{% url 'plag:plag' %}">Go back to list</a></p>
+<p><a href="https://egebele.pythonanywhere.com/">Home Page</a></p>

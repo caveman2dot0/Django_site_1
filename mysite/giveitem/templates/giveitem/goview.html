@@ -1,0 +1,16 @@
+{% extends "base_bootstrap.html" %}
+
+{% block content %}
+  <h1>Animal</h1>
+  <ul>
+      <li>
+          {{ Golist.animal }}
+      </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no cats in the library.</p>
+  {% endif %}
+  <p><a href="https://egebele.pythonanywhere.com/">Home Page</a>
+  <p><a href="https://egebele.pythonanywhere.com/cats/fun">Fun</a></p>
+{% endblock %}
