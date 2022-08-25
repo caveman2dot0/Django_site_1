@@ -1,14 +1,10 @@
 from django.shortcuts import render
-from giveitem.models import GoList
 
 from django.views import View
-from django.views.generic.edit import CreateView, UpdateView, DeleteView
-from django.urls import reverse_lazy
 
-import re
+
 import os
 import os.path
-from os.path import exists
 import random
 #from giveitem import carlist
 

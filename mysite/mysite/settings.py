@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'giveitem.apps.GiveitemConfig',
     'plag.apps.PlagConfig',
     'coolit.apps.CoolitConfig',
+    'passwordgen.apps.PasswordgenConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

@@ -39,4 +39,5 @@ urlpatterns = [
     path('plag/', include('plag.urls')),
     path('giveitem/', include('giveitem.urls')),
     path('coolit/', include('coolit.urls')),
+    path('passwordgen/', include('passwordgen.urls')),
 ]
