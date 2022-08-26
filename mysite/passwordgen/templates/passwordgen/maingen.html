@@ -1,14 +1,16 @@
 {% extends "base_bootstrap.html" %}
 
 {% block content %}
-  <h1>This will be a password generator! It is in Alpha and currently does not send back a password. Check again later!</h1>
+  <h1>This will be a password generator! It is in Alpha and currently only MEDIUM gives back a password</h1>
   <h3>Pick any of the below options to get a ranndomly generated password</h3>
   <p>These password difficulties are based off of difficulty to remember. All passwords are strong enough to use. (except <strong>EASY</strong> which does not contain any special characters)</p>
 
 
-  <h4><strong><a href="https://egebele.pythonanywhere.com/passwordgen/easygen">Easy</a></strong> (a password 8 letters long and 2 numbers, with no special characters</h4>
+  <h4><strong><a href="https://egebele.pythonanywhere.com/passwordgen/easygen">Easy</a></strong> (a password 8 letters long and 2 numbers, with no special characters)</h4>
 
-  <h4><strong><a href="https://egebele.pythonanywhere.com/passwordgen/mediumgen">Medium</a></strong> (a password 12 letters long, including 2-3 words, and special characters and letters</h4>
+  <h4><strong><a href="https://egebele.pythonanywhere.com/passwordgen/mediumgen">Medium</a></strong> (a password 11-15 characters long, including 2 words, and special characters and numbers)</h4>
+
+  <h4><strong><a href="https://egebele.pythonanywhere.com/passwordgen/hardgen">Hard</a></strong> (a password 17-38 characters long, including 3 words, and special characters and numbers)</h4>
 
   <p><a href="https://egebele.pythonanywhere.com/">Home Page</a></p>
 {% endblock %}

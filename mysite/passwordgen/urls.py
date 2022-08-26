@@ -12,4 +12,5 @@ urlpatterns = [
     path('', views.PasswordView.as_view(), name='maingen'),
     path('easygen', views.EasyView.as_view(), name='easygen'),
     path('mediumgen', views.MediumView.as_view(), name='mediumgen'),
+    path('hardgen', views.HardView.as_view(), name='hardneg'),
     ]
