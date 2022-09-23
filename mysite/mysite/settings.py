@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'plag.apps.PlagConfig',
     'coolit.apps.CoolitConfig',
     'passwordgen.apps.PasswordgenConfig',
+    'challange.apps.ChallangeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
