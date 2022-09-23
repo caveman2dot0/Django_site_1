@@ -1,0 +1,4 @@
+word type legnth
+Fresh adjective 5
+Fun verb 3
+Bench noun 5
