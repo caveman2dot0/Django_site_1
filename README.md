@@ -6,4 +6,6 @@ giveitem:: which is my first steps of working out a password generator. In this,
 
 passwordgen: the first draft of the real password generator. It now has 3 working levels (easy, medium, hard)  These are created by randomly searching files containing words. One file, shortword2, contains words 4-8 letters long. The other, longword2, contains words 9-12 letters long. It then takes these random words and puts them into a string and puts random numbers and special characters at the end.
 
+challange: the beginnings of a score card/database. Will be a place to enter scores for a 'challenge', then see how others are doing.
+
 There are other apps which I created on my own or in following along in various tutorials, such as DJ4E (Django for Everyone)
