@@ -1,0 +1,16 @@
+{% extends "base_bootstrap.html" %}
+
+{% block content %}
+  <form action="" method="post">
+    {% csrf_token %}
+    <table>
+    {{ form.as_table }}
+    </table>
+    <input type="submit" value="Submit">
+
+  </form>
+  <form style="margin-bottom:8px; margin-top:8px;">
+    <input type="button" value="Go back!" onclick="history.back()">
+  </form>
+  <a href=https://egebele.pythonanywhere.com//><input type=button value='HOME'></a>
+{% endblock %}
